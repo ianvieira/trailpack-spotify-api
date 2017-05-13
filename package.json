@@ -1,0 +1,44 @@
+{
+  "name": "trailpack-spotify-api",
+  "version": "0.0.0",
+  "description": "Trailpack to connect your app with the Spotify API",
+  "homepage": "https://github.com/ianvieira/trailpack-spotify-api",
+  "author": {
+    "name": "Ian Vieira",
+    "email": "ian@ianvieira.com.br",
+    "url": "https://github.com/ianvieira"
+  },
+  "main": "index.js",
+  "keywords": [
+    "trails",
+    "trailsjs",
+    "trailpack",
+    "spotify",
+    "api",
+    "trailjs"
+  ],
+  "dependencies": {
+    "spotify-web-api-node": "^2.4.0",
+    "trailpack": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^2.4",
+    "eslint-config-trails": "^1.0.4",
+    "lodash": "^4.11.1",
+    "mocha": "^2.4.5",
+    "smokesignals": "^1.0.9",
+    "trailpack-core": "^1.0.0-beta-6",
+    "trails": "latest"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "ianvieira/trailpack-spotify-api",
+  "license": "MIT"
+}
